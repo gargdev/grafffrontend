@@ -37,6 +37,8 @@
     padding: 1em;
     border-radius: 100px;
     border: 1px solid #000;
+    color: white;
+    
 }
 .subscribe:hover{
     background: linear-gradient(to bottom left, #34d399, #3b82f6);
