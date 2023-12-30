@@ -70,7 +70,7 @@ const ProfileDashboard = () => {
           <a href="/" className="link"> <li>Profile</li></a>
           <a href="/settings" className="link"><li>Account Sttings</li></a>
           <a href="/pricing" className="link"><li>Subscriptions</li></a>
-          <a href="/grpah" className="link"><li>Graphs</li></a>
+          <a href="/graph" className="link"><li>Graphs</li></a>
         </ul>
       </div>
     </div>

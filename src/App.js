@@ -4,6 +4,7 @@ import "./App.css";
 import ProfileDashboard from "./Pages/ProfileDashboard";
 import PricingPage from "./Pages/PricingPage";
 import Navbar from "./Pages/Navbar";
+import CreateNewGraph from "./Pages/CreateNewGraph";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Routes>
         <Route exact path="/" element={<ProfileDashboard />} />
           <Route path="/pricing" element={<PricingPage />} />
-          
+          <Route path="/graph" element={<CreateNewGraph/>} />
         </Routes>
       </div>
     </Router>
