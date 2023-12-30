@@ -3,15 +3,17 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import ProfileDashboard from "./Pages/ProfileDashboard";
 import PricingPage from "./Pages/PricingPage";
+import Navbar from "./Pages/Navbar";
 
 function App() {
   return (
     <Router>
       <div className="App">
-        {/* <Navbar /> */}
+        {<Navbar />}
         <Routes>
-          <Route path="/" element={<PricingPage />} />
-          <Route exact path="/home" element={<ProfileDashboard />} />
+        <Route exact path="/" element={<ProfileDashboard />} />
+          <Route path="/pricing" element={<PricingPage />} />
+          
         </Routes>
       </div>
     </Router>

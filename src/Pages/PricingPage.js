@@ -3,6 +3,7 @@ import PricingCard from "./PricingCard";
 import "../Styles/pricingpage.css";
 import image2 from "../assets/image 2.png";
 
+
 const PricingPage = () => {
   const [selectedPlan, setSelectedPlan] = useState(null);
 
@@ -12,6 +13,7 @@ const PricingPage = () => {
 
   return (
     <div className="container pricing-parent">
+      
       <h1 className="primaryheading">The Perfect Plan for Your Needs</h1>
       <p className="primarytitle">
         Our financial pricing makes it easy to find a plan that works with your
