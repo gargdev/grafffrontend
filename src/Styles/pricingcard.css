@@ -1,0 +1,57 @@
+/* pricingcard.css */
+
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    border-radius: 32px;
+    /* border: 1px solid #e8eaee; */
+    background: rgba(24, 40, 77, 0.6);
+    backdrop-filter: blur(5px);
+    width: 300px;
+    height: 374px;
+    flex-shrink: 0;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth hover effect */
+  }
+
+  .pricing-card h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .pricing-card p{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20%;
+  }
+
+  .pricing-card ul{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .pricing-card:hover {
+    transform: scale(1.1); /* Grow the card on hover */
+    cursor: pointer;
+  }
+  
+  .selected {
+    /* Add styles for the selected state if needed */
+  }
+  
